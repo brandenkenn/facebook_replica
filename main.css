@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*
+================================
+Header
+================================
+*/
+
+header {
+	height: 82px;
+	background: linear-gradient(#4B67A1, #3A5795);
+}
+h1 {
+	font-family: "Helvetica";
+	font-size: 40px;
+	color: white;
+	font-weight: 600;
+}
+.header-container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header small {
+	color: white;
+	font-family: helvetica;
+	font-size: 13px;
+}
+.header-right input[type=text] {
+	height: 23px;
+	width: 150px;
+}
+.header-right button {
+	color: white;
+	background: #627AAC;
+	font-family: helvetica;
+	width: 52px;
+	height: 22px;
+	font-size: 12px;
+	font-weight: 600;
+	border: 0 none;
+	box-shadow: 0 1px 0 #666, 0 1px 0 #444, 0 1px 1px rgba(0,0,0,0.6);
+	position: relative;
+	left: 15px;
+	bottom: 5px;
+}
+.header-right {
+	position: relative;
+	left: 450px;
+}
+.header-left {
+	position: relative;
+	top: 25px;
+}
+.pass {
+	position: relative;
+	bottom: 30px;
+	left: 60px;
+}
+.email {
+	position: relative;
+	left: 145px;
+	bottom: 30px;
+}
+.username {
+	position: relative;
+	left: 50px;
+	bottom: 4px;
+}
+.password {
+	position: relative;
+	bottom: 4px;
+}
+
+/*
+================================
+Body 
+================================
+*/
+
+.body-container {
+	font-family: helvetica;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.body-left img {
+	height: 43px;
+	width: 43px;
+}	
+h3 {
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	left: 50px;
+	bottom: 35px;
+}
