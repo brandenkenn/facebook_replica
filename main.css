@@ -54,7 +54,9 @@ table {
 Header
 ================================
 */
-
+html {
+	width: auto;
+}
 header {
 	height: 82px;
 	background: linear-gradient(#4B67A1, #3A5795);
@@ -149,4 +151,137 @@ h3 {
 	position: relative;
 	left: 50px;
 	bottom: 35px;
+}
+.body-right {
+	position: relative;
+	left: 570px;
+	bottom: 325px;
+
+}
+h4 {
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: bold;
+
+
+}
+h5 {
+	font-size: 19px;
+	line-height: 25px;
+	margin-bottom: 25px;
+}
+.firstname {
+	width: 194px;
+	font-size: 18px;
+	border-radius: 5px;
+	border-color: #bdc7d8;
+	border: 1px solid #bdc7d8;
+	height: 39px; 
+
+}
+.lastname {
+	width: 194px;
+	font-size: 18px;
+	border-radius: 5px;
+	border-color: #bdc7d8;
+	border: 1px solid #bdc7d8;
+	height: 39px;
+	margin-left: 8px;
+}
+.body-right input[type=text] {
+	padding-left: 9px;
+	padding-top: 4px;
+	font-size: 18px;
+	border-radius: 5px;
+	border-color: #bdc7d8;
+	border: 1px solid #bdc7d8;
+	height: 39px;
+}
+.signup-email {
+	width: 402px;
+	position: relative;
+	top: 50px;
+	right: 405px;
+}
+.signup-pw {
+	width: 402px;
+	position: relative;
+	top: 62px;
+}
+.pw-confirm {
+	width: 402px;
+	position: relative;
+	top: 114px;
+	right: 405px;
+}
+.birthday {
+	position: relative;
+	font-size: 18px;
+	line-height: 24px;
+	top: 114px; 
+	margin-top: 5px;
+}
+
+.body-right select {
+	position: relative;
+	top: 114px;
+}
+.month {
+	font-size: 12px;
+	height: 30px;
+	width:  71px;
+}
+.day {
+	font-size: 12px;
+	height: 30px;
+	width: 59px;
+	position: relative;
+	right: 6px;
+}	
+.year {
+	font-size: 12px;
+	height: 30px;
+	width: 65px;
+	position: relative;
+	right: 12px;
+}
+.year ,
+.month,
+.day {
+	margin-top: 5px;
+	padding-right: 
+}
+select {
+	padding-left: 5px;
+}
+
+.male {
+	position: relative;
+	top: 128px;
+	font-size: 12px;
+	line-height: 18px;
+	left: 10px;
+}
+
+.female {
+	position: relative;
+	top: 106px;
+	font-size: 12px;
+	line-height: 18px;
+	left: 80px;
+}	
+.body-right button {
+	position: relative;
+	top: 128px;
+	font-size: 22px; 
+	background: linear-gradient(#79bc64, #578843);
+	width: 194px;
+	height: 39px;
+	border-radius: 5px;
+	color: white;
+	border: 1px solid #777;
+	text-shadow: .5px .5px #777;  
+}
+body {
+	background: #EDF0F5
 }
